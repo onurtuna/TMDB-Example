@@ -7,7 +7,7 @@
 
 import UIKit
 
-class MoviesViewController: UIViewController {
+class MoviesViewController: BaseViewController {
 
     @IBOutlet weak var movieCollectionView: UICollectionView!
     
@@ -55,6 +55,9 @@ class MoviesViewController: UIViewController {
     }
 
     private func setupViewModel() {
+        movieViewModel.errorOccured = { [weak self] message in
+            self?.showAlert(message: message)
+        }
         movieViewModel.moviesFetched = { [weak self] in
             guard let self = self else {
                 return
