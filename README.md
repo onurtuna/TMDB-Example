@@ -1,7 +1,6 @@
 # TMDB-Example
 
-IMPORTANT: Please, make sure that you have provided an api key from themoviedb.org inside the Key.plist file. 
-           I do not prefer to provide the key inside with the code as this is a public repo.
+IMPORTANT: Please, make sure that you have provided an api key from themoviedb.org inside the Key.plist file. I do not prefer to provide the key within the code as this is a public repo.
 
 A brief description of the project code:
 
