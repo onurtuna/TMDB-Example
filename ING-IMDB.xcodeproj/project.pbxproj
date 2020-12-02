@@ -13,12 +13,15 @@
 		2DF188CA25765B8A008A7869 /* MovieDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DF188C825765B89008A7869 /* MovieDetailViewController.xib */; };
 		2DF188D325768F33008A7869 /* FavManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF188D225768F33008A7869 /* FavManager.swift */; };
 		2DF188D72576979B008A7869 /* CacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF188D62576979B008A7869 /* CacheManager.swift */; };
-		2DF188DC257697D2008A7869 /* ImageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF188DB257697D2008A7869 /* ImageManager.swift */; };
 		2DF188E925779FE6008A7869 /* LoadMoreCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF188E725779FE6008A7869 /* LoadMoreCollectionViewCell.swift */; };
 		2DF188EA25779FE6008A7869 /* LoadMoreCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DF188E825779FE6008A7869 /* LoadMoreCollectionViewCell.xib */; };
 		2DF188EF2577AB6C008A7869 /* Key.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DF188EE2577AB6C008A7869 /* Key.plist */; };
 		2DF188F22577ABA0008A7869 /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF188F12577ABA0008A7869 /* KeyManager.swift */; };
 		2DF188F52577C645008A7869 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF188F42577C645008A7869 /* BaseViewController.swift */; };
+		2DF188FF2577CF23008A7869 /* ING_IMDBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF188FE2577CF23008A7869 /* ING_IMDBTests.swift */; };
+		2DF189092577CF5F008A7869 /* ManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF189082577CF5F008A7869 /* ManagerTests.swift */; };
+		2DF1890F2577D26B008A7869 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF1890E2577D26B008A7869 /* ViewModelTests.swift */; };
+		2DF189132577E33E008A7869 /* ApiCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DF189122577E33E008A7869 /* ApiCallTests.swift */; };
 		2DFAEE6E25754BB20077B916 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAEE6D25754BB20077B916 /* AppDelegate.swift */; };
 		2DFAEE7025754BB20077B916 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFAEE6F25754BB20077B916 /* SceneDelegate.swift */; };
 		2DFAEE7725754BB70077B916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DFAEE7625754BB70077B916 /* Assets.xcassets */; };
@@ -29,6 +32,16 @@
 		2DFAEE8E25754D190077B916 /* MovieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2DFAEE8C25754D190077B916 /* MovieCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2DF189012577CF23008A7869 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DFAEE6225754BB20077B916 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DFAEE6925754BB20077B916;
+			remoteInfo = "ING-IMDB";
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		2D976DCD2575930F0079EEB4 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		2D976DCE2575930F0079EEB4 /* MoviesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MoviesViewController.xib; sourceTree = "<group>"; };
@@ -36,12 +49,17 @@
 		2DF188C825765B89008A7869 /* MovieDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MovieDetailViewController.xib; sourceTree = "<group>"; };
 		2DF188D225768F33008A7869 /* FavManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavManager.swift; sourceTree = "<group>"; };
 		2DF188D62576979B008A7869 /* CacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheManager.swift; sourceTree = "<group>"; };
-		2DF188DB257697D2008A7869 /* ImageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageManager.swift; sourceTree = "<group>"; };
 		2DF188E725779FE6008A7869 /* LoadMoreCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadMoreCollectionViewCell.swift; sourceTree = "<group>"; };
 		2DF188E825779FE6008A7869 /* LoadMoreCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoadMoreCollectionViewCell.xib; sourceTree = "<group>"; };
 		2DF188EE2577AB6C008A7869 /* Key.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Key.plist; sourceTree = "<group>"; };
 		2DF188F12577ABA0008A7869 /* KeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
 		2DF188F42577C645008A7869 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2DF188FC2577CF23008A7869 /* ING-IMDBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ING-IMDBTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DF188FE2577CF23008A7869 /* ING_IMDBTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ING_IMDBTests.swift; sourceTree = "<group>"; };
+		2DF189002577CF23008A7869 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DF189082577CF5F008A7869 /* ManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManagerTests.swift; sourceTree = "<group>"; };
+		2DF1890E2577D26B008A7869 /* ViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTests.swift; sourceTree = "<group>"; };
+		2DF189122577E33E008A7869 /* ApiCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCallTests.swift; sourceTree = "<group>"; };
 		2DFAEE6A25754BB20077B916 /* ING-IMDB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ING-IMDB.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DFAEE6D25754BB20077B916 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DFAEE6F25754BB20077B916 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +73,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2DF188F92577CF23008A7869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DFAEE6725754BB20077B916 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -90,7 +115,6 @@
 			children = (
 				2DF188D225768F33008A7869 /* FavManager.swift */,
 				2DF188D62576979B008A7869 /* CacheManager.swift */,
-				2DF188DB257697D2008A7869 /* ImageManager.swift */,
 				2DF188F12577ABA0008A7869 /* KeyManager.swift */,
 			);
 			path = Manager;
@@ -105,10 +129,23 @@
 			path = "Load More";
 			sourceTree = "<group>";
 		};
+		2DF188FD2577CF23008A7869 /* ING-IMDBTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DF189122577E33E008A7869 /* ApiCallTests.swift */,
+				2DF1890E2577D26B008A7869 /* ViewModelTests.swift */,
+				2DF189082577CF5F008A7869 /* ManagerTests.swift */,
+				2DF188FE2577CF23008A7869 /* ING_IMDBTests.swift */,
+				2DF189002577CF23008A7869 /* Info.plist */,
+			);
+			path = "ING-IMDBTests";
+			sourceTree = "<group>";
+		};
 		2DFAEE6125754BB20077B916 = {
 			isa = PBXGroup;
 			children = (
 				2DFAEE6C25754BB20077B916 /* ING-IMDB */,
+				2DF188FD2577CF23008A7869 /* ING-IMDBTests */,
 				2DFAEE6B25754BB20077B916 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -117,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				2DFAEE6A25754BB20077B916 /* ING-IMDB.app */,
+				2DF188FC2577CF23008A7869 /* ING-IMDBTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -144,6 +182,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2DF188FB2577CF23008A7869 /* ING-IMDBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF189032577CF23008A7869 /* Build configuration list for PBXNativeTarget "ING-IMDBTests" */;
+			buildPhases = (
+				2DF188F82577CF23008A7869 /* Sources */,
+				2DF188F92577CF23008A7869 /* Frameworks */,
+				2DF188FA2577CF23008A7869 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DF189022577CF23008A7869 /* PBXTargetDependency */,
+			);
+			name = "ING-IMDBTests";
+			productName = "ING-IMDBTests";
+			productReference = 2DF188FC2577CF23008A7869 /* ING-IMDBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		2DFAEE6925754BB20077B916 /* ING-IMDB */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2DFAEE7E25754BB70077B916 /* Build configuration list for PBXNativeTarget "ING-IMDB" */;
@@ -170,6 +226,10 @@
 				LastSwiftUpdateCheck = 1220;
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					2DF188FB2577CF23008A7869 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 2DFAEE6925754BB20077B916;
+					};
 					2DFAEE6925754BB20077B916 = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -189,11 +249,19 @@
 			projectRoot = "";
 			targets = (
 				2DFAEE6925754BB20077B916 /* ING-IMDB */,
+				2DF188FB2577CF23008A7869 /* ING-IMDBTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2DF188FA2577CF23008A7869 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DFAEE6825754BB20077B916 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,13 +279,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2DF188F82577CF23008A7869 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DF188FF2577CF23008A7869 /* ING_IMDBTests.swift in Sources */,
+				2DF189092577CF5F008A7869 /* ManagerTests.swift in Sources */,
+				2DF189132577E33E008A7869 /* ApiCallTests.swift in Sources */,
+				2DF1890F2577D26B008A7869 /* ViewModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		2DFAEE6625754BB20077B916 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2DF188F52577C645008A7869 /* BaseViewController.swift in Sources */,
 				2DFAEE6E25754BB20077B916 /* AppDelegate.swift in Sources */,
-				2DF188DC257697D2008A7869 /* ImageManager.swift in Sources */,
 				2DF188D72576979B008A7869 /* CacheManager.swift in Sources */,
 				2DF188E925779FE6008A7869 /* LoadMoreCollectionViewCell.swift in Sources */,
 				2DFAEE7025754BB20077B916 /* SceneDelegate.swift in Sources */,
@@ -233,6 +311,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2DF189022577CF23008A7869 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DFAEE6925754BB20077B916 /* ING-IMDB */;
+			targetProxy = 2DF189012577CF23008A7869 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		2DFAEE7825754BB70077B916 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -245,6 +331,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2DF189042577CF23008A7869 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NXAYK64DU;
+				INFOPLIST_FILE = "ING-IMDBTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "onurtuna.org.ING-IMDBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ING-IMDB.app/ING-IMDB";
+			};
+			name = Debug;
+		};
+		2DF189052577CF23008A7869 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2NXAYK64DU;
+				INFOPLIST_FILE = "ING-IMDBTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "onurtuna.org.ING-IMDBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ING-IMDB.app/ING-IMDB";
+			};
+			name = Release;
+		};
 		2DFAEE7C25754BB70077B916 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -402,6 +528,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2DF189032577CF23008A7869 /* Build configuration list for PBXNativeTarget "ING-IMDBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DF189042577CF23008A7869 /* Debug */,
+				2DF189052577CF23008A7869 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2DFAEE6525754BB20077B916 /* Build configuration list for PBXProject "ING-IMDB" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

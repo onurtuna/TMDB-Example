@@ -65,12 +65,12 @@ class MovieDetailViewController: UIViewController {
     
     @IBAction func onStar(_ sender: Any) {
         if FavManager.isFav(movie: movie) {
-            FavManager.unFav(movie: movie, completion: {
-                handleStar()
+            FavManager.unFav(movie: movie, completion: { [weak self] in
+                self?.handleStar()
             })
         } else {
-            FavManager.fav(movie: movie, completion: {
-                handleStar()
+            FavManager.fav(movie: movie, completion: { [weak self] in
+                self?.handleStar()
             })
         }
         change = true

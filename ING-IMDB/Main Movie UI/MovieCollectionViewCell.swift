@@ -31,10 +31,6 @@ class MovieCollectionViewCell: UICollectionViewCell {
         movieImageView.image = nil
     }
     
-    @IBAction func onStar(_ sender: Any) {
-        
-    }
-    
     private func handleImage() {
         guard let imageUri = movie?.imageUri else {
             return
