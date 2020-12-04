@@ -13,5 +13,6 @@ A brief description of the project code:
 - Pagination is handled upon a button click. The results are appended to the fetched movies.
 - Search is handled by SearchController which is assigned to the MovieCollectionView.
 - No StoryBoard is used in the project except LaunchStoryBoard.
+- The UI is defined inside the .xib files.
 - The starting view controller is a navigation controller with a root view controller of MoviesViewController.
 - Unit classes are provided with the code with a code coverage of around 60%.
