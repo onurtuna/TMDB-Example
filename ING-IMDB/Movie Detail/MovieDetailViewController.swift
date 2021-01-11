@@ -17,7 +17,9 @@ class MovieDetailViewController: UIViewController {
     
     var movie: Movie?
     var change = false
-    var changeHappened: ((Bool) -> Void)?
+    var changeHappened: ((Bool, IndexPath?) -> Void)?
+    
+    var indexPath: IndexPath?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +27,7 @@ class MovieDetailViewController: UIViewController {
     }
     
     deinit {
-        changeHappened?(change)
+        changeHappened?(change, indexPath)
     }
     
     private func setupView() {

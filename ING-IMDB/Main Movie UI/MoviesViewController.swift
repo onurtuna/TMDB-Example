@@ -138,9 +138,13 @@ extension MoviesViewController: UICollectionViewDelegate {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let movieDetailVC = MovieDetailViewController()
         movieDetailVC.movie = movieViewModel.movies?[indexPath.row]
-        movieDetailVC.changeHappened = { [weak self] change in
+        movieDetailVC.indexPath = indexPath
+        movieDetailVC.changeHappened = { [weak self] change, indexPath in
+            guard let indexPath = indexPath else {
+                return
+            }
             if change {
-                self?.movieCollectionView.reloadData()
+                self?.movieCollectionView.reloadItems(at: [indexPath])
             }
         }
         navigationController?.pushViewController(movieDetailVC, animated: true)
