@@ -137,7 +137,7 @@ extension MoviesViewController: UICollectionViewDelegate {
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
         let movieDetailVC = MovieDetailViewController()
-        movieDetailVC.movie = movieViewModel.movies?[indexPath.row]
+        movieDetailVC.movie = isFiltering ? filteredMovies?[indexPath.row] : movieViewModel.movies?[indexPath.row]
         movieDetailVC.indexPath = indexPath
         movieDetailVC.changeHappened = { [weak self] change, indexPath in
             guard let indexPath = indexPath else {
